@@ -9,7 +9,8 @@ export class App {
       { route: ['','welcome'],  moduleId: './welcome',      nav: true, title:'Welcome' },
       { route: 'flickr',        moduleId: './flickr',       nav: true, title:'Flickr' },
       { route: 'esri-map',        moduleId: './esri-map',       nav: true, title:'ESRI Map' },
-      { route: 'child-router',  moduleId: './child-router', nav: true, title:'Child Router' }
+      { route: 'child-router',  moduleId: './child-router', nav: true, title:'Child Router' },
+			{ route: 'pong',  moduleId: './pong', nav: true, title:'Pong!'}
     ]);
 
     this.router = router;

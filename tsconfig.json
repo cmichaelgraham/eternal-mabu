@@ -55,6 +55,7 @@
         "./views/main.ts",
         "./views/model.ts",
         "./views/nav-bar.ts",
+        "./views/pong.ts",
         "./views/welcome.ts"
     ]
 }
