@@ -7,11 +7,12 @@ export class Flickr{
   model;
   heading = 'Flickr';
   images = [];
-  url = 'http://api.flickr.com/services/feeds/photos_public.gne?tags='+this.model.search+'cat&tagmode=any&format=json';
+  url;
   http:HttpClient;
   constructor(http:HttpClient,model){
     this.http = http;
     this.model = model;
+    this.url='http://api.flickr.com/services/feeds/photos_public.gne?tags='+this.model.search+'&tagmode=any&format=json';
   }
 
   activate(){

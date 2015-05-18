@@ -11,9 +11,9 @@ define(["require", "exports", 'aurelia-framework', 'aurelia-http-client', 'views
         function Flickr(http, model) {
             this.heading = 'Flickr';
             this.images = [];
-            this.url = 'http://api.flickr.com/services/feeds/photos_public.gne?tags=' + this.model.search + 'cat&tagmode=any&format=json';
             this.http = http;
             this.model = model;
+            this.url = 'http://api.flickr.com/services/feeds/photos_public.gne?tags=' + this.model.search + '&tagmode=any&format=json';
         }
         Flickr.prototype.activate = function () {
             var _this = this;
