@@ -16,7 +16,7 @@ export class Welcome{
   welcome(){
     alert(`Welcome, ${this.fullName}!`);
   }
-  runmeee(){
+  runme(){
     alert(`Welcome, You ran me!`);
   }
 }

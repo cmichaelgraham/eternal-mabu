@@ -14,7 +14,7 @@ var Welcome = (function () {
     Welcome.prototype.welcome = function () {
         alert("Welcome, " + this.fullName + "!");
     };
-    Welcome.prototype.runmeee = function () {
+    Welcome.prototype.runme = function () {
         alert("Welcome, You ran me!");
     };
     return Welcome;
