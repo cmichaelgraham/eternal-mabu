@@ -4,6 +4,7 @@ define(["require", "exports"], function (require, exports) {
             this.heading = 'Welcome to the Aurelia Navigation App!';
             this.firstName = 'John';
             this.lastName = 'Doe';
+            this.pizzaName = 'Pepperoni';
         }
         Object.defineProperty(Welcome.prototype, "fullName", {
             //Getters can't be observed with Object.observe, so they must be dirty checked.
@@ -11,7 +12,7 @@ define(["require", "exports"], function (require, exports) {
             //To optimize by declaring the properties that this getter is computed from, uncomment the line below.
             //@computedFrom('firstName', 'lastName')
             get: function () {
-                return this.firstName + " " + this.lastName;
+                return this.firstName + " " + this.lastName + " " + this.pizzaName;
             },
             enumerable: true,
             configurable: true
