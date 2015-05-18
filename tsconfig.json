@@ -53,6 +53,7 @@
         "./views/esri-map.ts",
         "./views/flickr.ts",
         "./views/main.ts",
+        "./views/model.ts",
         "./views/nav-bar.ts",
         "./views/welcome.ts"
     ]
