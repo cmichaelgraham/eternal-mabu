@@ -16,6 +16,9 @@ export class Welcome{
   welcome(){
     alert(`Welcome, ${this.fullName}!`);
   }
+  runmeee(){
+    alert(`Welcome, You ran me!`);
+  }
 }
 
 export class UpperValueConverter {
